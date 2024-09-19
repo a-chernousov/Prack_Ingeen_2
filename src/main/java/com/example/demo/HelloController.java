@@ -17,6 +17,8 @@ public class HelloController {
         @FXML
         private TextField totalSum;
 
+        private int SUM = 100;
+
         @FXML
         public void initialize() {
             applyLabelStyles();
